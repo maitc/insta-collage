@@ -1,0 +1,113 @@
+*{
+	font-family: 'Open Sans', sans-serif;
+}
+body{
+ 	background: -webkit-linear-gradient(right top, #55B690 , #D27857 );
+ 	background: -o-linear-gradient(bottom left, #55B690 , #D27857 ); 
+  	background: -moz-linear-gradient(bottom left, #55B690 , #D27857 ); 
+  	
+}
+/**FIRST SECTION**/
+
+.img-logo{
+	width: 50%;
+	padding-top: 160px;
+	padding-bottom: 30px;
+}
+.inputs{
+	width: 90%;
+	height: 40px;
+	border: none;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+.input-uno{
+	margin-bottom: 10px;
+}
+.input-dos{
+	margin-bottom: 15px;
+}
+::-webkit-input-placeholder{/*para chrome, safari*/
+	padding-left: 10px;
+	color: white;
+}
+.btn-primary{
+	width: 90%;
+	height: 40px;
+	background-color: transparent;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.btn-primary{
+	margin-bottom: 15px;
+}
+.ajuste-ayuda{
+	color:  whitesmoke;
+	font-weight: 300;
+}
+.ajuste-facebook{
+	color: white;
+	font-weight: 700;
+}
+.ajuste-facebook p{
+	margin-bottom: 65px;
+}
+
+/**FOOTER**/
+footer p{
+	color: whitesmoke;
+	margin-top: 50px; 
+}
+
+
+/**COLLAGE**/
+/*FIRST SECTION*/
+.ajuste-first{
+	width: 100%;
+	background-color: black;
+}
+.ajuste-negro{
+	height: 25px;
+	background-color: black;
+}
+/*SECOND SECTION*/
+.marco-foto{
+	border: 1px solid black;
+	min-height: 150px;
+  	margin-top: 8px;
+}
+/*THIRD SECTION*/
+.ajuste-photo{
+	width: 100%;
+	background-color: black;
+}
+.ajuste-photo{
+	color: #5581FF;
+}
+.ajuste-fotos{
+	border: 2px solid black;
+}
+
+/**validacion**/
+.input-box {
+  position: relative;
+}
+.input-box span{
+  display: block;
+  background-color: rgba(51,51,51,0.8);
+  padding: 5px;
+  position: absolute;
+  left: 105%;
+  top: 25px;
+  width: 200px;
+  color: white;
+}
+.input-box span:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-right: 10px solid rgba(51,51,51,0.8);
+  border-bottom: 5px solid transparent;
+  position: absolute;
+  right: 100%;
+  top: 10px;
+}
